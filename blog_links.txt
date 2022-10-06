@@ -1,0 +1,4 @@
+https://medium.com/@yehanganep/python-everything-is-object-621de00247b5
+https://medium.com/@yehanganep/what-happens-when-you-type-https-www-google-com-in-your-web-browser-and-press-enter-ea07053a20eb
+https://medium.com/@yehanganep/postmortem-850dc6fd13ca
+https://medium.com/@yehanganep/service-mybranch-44aa23a55f79

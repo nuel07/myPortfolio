@@ -1,0 +1,112 @@
+@media screen and (max-width: 600px){
+    header{
+        padding: 0;
+    }
+    header .right-header{
+        padding: 0rem !important;
+    }
+    
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .header-content{
+        grid-template-columns:  1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2rem;
+        }
+    }
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .about-con{
+        grid-template-columns: 1fr;
+        .right-con{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+
+        }
+        .left-con{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+           
+        }
+    }
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+    .port-projects{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .contact-container{
+        flex-direction: column;
+        .right-con{
+            margin-left: 0;
+            margin-top: 2.5em;
+        }
+    }
+    .contact-container .right-con .name-email {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+      }
+    .contact-container .right-con .name-email :last-child {
+        margin-left: 0;
+        margin-top: 1.5em;
+   }
+   .contact-container .right-con .submit-btn {
+    flex-direction: column;
+    margin-top: 1.5em
+  }
+    .section{
+        padding: 2rem 2.5rem;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-txt{
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .buttons{
+            margin: 1rem .3rem;
+
+        }
+    }
+}
